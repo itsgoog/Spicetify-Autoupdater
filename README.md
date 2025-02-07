@@ -26,5 +26,5 @@ This updater is intended to automatically update spicetify everytime you restart
 
 
 ### Future plans:
-Add release to github for easy downloads
-Add additional script that will handle full instalation of necessary folders & shortcuts
+- [ ] Clarify what needs to be done to enable powershell scripts
+- [ ] Add additional script that will handle full instalation of necessary folders & shortcuts
