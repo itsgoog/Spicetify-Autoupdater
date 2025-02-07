@@ -1,2 +1,30 @@
-# Spicetify Autoupdater
- Script to autoupdate spicetify
+**Spicetify Autoupdater**
+=======================================
+
+This updater is intended to automatically update spicetify everytime you restart your computer. It can also be used to update spicetify as needed if you don't want it to run with every restart.
+
+
+### Script details:
+`spicetify.ps1` checks for updates [`spicetify update --no-restart`] , restores the previous backup [`spicetify restore backup apply --no-restart`], and restarts the client (if running) [`spicetify restart`], and logs all actions into a simple log file.
+
+> [!NOTE]
+> A batch file (`update.bat`) is included in case anyone has issues with the powershell script but both function mostly identically.
+
+
+### How to use:
+1. Download latest release zip file
+2. Extract zip file wherever you choose
+3. Move new `Spicetify Autoupdater` folder wherever you want to save it permanently
+4. Create a shortcut for `start.vbs`
+5. Move shortcut to Windows startup folder (found at `shell:startup`)
+6. Success!
+
+`start.vbs` will be set to run everytime you start your computer. You can test the script by running `start.vbs` (just double click it) and checking the `spicetify.log` file to see the results.
+
+> [!IMPORTANT]
+> You may need to adjust settings to allow powershell scripts to be run
+
+
+### Future plans:
+Add release to github for easy downloads
+Add additional script that will handle full instalation of necessary folders & shortcuts
