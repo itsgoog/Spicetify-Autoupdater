@@ -21,15 +21,15 @@ This updater is intended to automatically update [Spicetify](https://spicetify.a
 5. Move shortcut to Windows startup folder (found at `shell:startup`)
 6. Success!
 
-`start.vbs` will now be set to run everytime you start your computer. You can test the script by running `start.vbs` (just double click it) and checking the `spicetify.log` file to see the results. You can also just use start
+`start.vbs` will now be set to run everytime you start your computer. You can test the script by running `start.vbs` (just double click it) and checking the `spicetify.log` file to see the results. You can also run the `spicetify.ps1` script directly from the terminal.
 
 > [!IMPORTANT]
-> You may need to adjust settings to allow powershell scripts to be run. This can be done using `powershell.exe -ExecutionPolicy Bypass -File spicetify.ps1`. Alternatively, you can disable the PowerShell script protection altogether using `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`.
+> PowerShell defaults to blocking scripts as a security measure so you may need to adjust your settings. This restriction can be bypassed using `powershell.exe -ExecutionPolicy Bypass -File spicetify.ps1`. Alternatively, you can disable the script protection altogether using `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`.
 
 
 ### Future plans:
 
-- [ ] Add additional script that will handle full instalation of necessary folders & shortcuts
+- [ ] Add additional functionality that will handle full instalation of necessary folders & shortcuts
 
 
 ### Links
