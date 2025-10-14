@@ -23,8 +23,9 @@ This updater is intended to automatically update spicetify everytime you restart
 
 > [!IMPORTANT]
 > You may need to adjust settings to allow powershell scripts to be run
+> This can be done using `powershell.exe -ExecutionPolicy Bypass -File spicetify.ps1`
+> Alternatively, you can disable the PowerShell script protection altogether using `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
 
 
 ### Future plans:
-- [ ] Clarify what needs to be done to enable powershell scripts
 - [ ] Add additional script that will handle full instalation of necessary folders & shortcuts
