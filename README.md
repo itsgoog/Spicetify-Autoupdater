@@ -17,9 +17,8 @@ This updater is intended to automatically update [Spicetify](https://spicetify.a
 1. Download latest release zip file
 2. Extract zip file wherever you choose
 3. Move new `Spicetify Autoupdater` folder wherever you want to save it permanently
-4. Create a shortcut for `start.vbs`
-5. Move shortcut to Windows startup folder (found at `shell:startup`)
-6. Success!
+4. Run install.ps1 file.
+5. Enjoy <3
 
 `start.vbs` will now be set to run everytime you start your computer. You can test the script by running `start.vbs` (just double click it) and checking the `spicetify.log` file to see the results. You can also run the `spicetify.ps1` script directly from the terminal.
 
@@ -29,7 +28,7 @@ This updater is intended to automatically update [Spicetify](https://spicetify.a
 
 ### Future plans:
 
-- [ ] Add additional functionality that will handle full instalation of necessary folders & shortcuts
+- [X] Add additional functionality that will handle full instalation of necessary folders & shortcuts
 
 
 ### Links
